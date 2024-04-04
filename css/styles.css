@@ -62,3 +62,52 @@ input[type="submit"]:hover {
 img {
     display: block; 
     margin: 0 auto;
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="email"],
+    input[type="submit"] {
+        width: 100%;
+    }
+
+/* Media query for medium devices*/
+@media (min-width: 577px) and (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+/* Media query for large devices (laptops/desktops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 70%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+/* Media query for extra-large devices (large desktops) */
+@media (min-width: 1025px) {
+    .container {
+        max-width: 60%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+
