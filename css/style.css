@@ -1,0 +1,6 @@
+main article {
+	border: 1px solid #ccc;
+	padding: 1rem;
+	display: inline-block;
+	box-sizing:border-box;
+}
