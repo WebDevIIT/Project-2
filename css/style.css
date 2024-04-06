@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 img {
+  margin-left: 0;
+  max-width: 15rem;
+  max-height: 10rem;
+  padding-block: 5px;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul button {
+  background-color: #3c7194;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-inline: 5rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-align {
+  font-size: 1rem;
+  text-align: right;
+  line-height: 1.5rem;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article-header h3 {
+  color: #3c7194;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+.article-date {
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+article h4 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+article p {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-bottom: 1rem;
+  line-height: normal;
+}
+
+article p em {
+  margin-left: 2rem;
+  color: #026aa7;
+  font-style: italic;
+}
+
+article p strong {
+  font-weight: bold;
+}
+
+.article-info {
+  margin-bottom: 1.5rem;
+}
+
+.article-info p {
+  line-height: 1.5rem;
+}
+
+.article-content em {
+  margin-left: 0;
+  color: rgb(59, 59, 59);
+  font-style: italic;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 10px;
+}
