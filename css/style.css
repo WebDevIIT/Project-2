@@ -196,7 +196,7 @@ footer {
 }
 
 /* Media query for smaller devices */
-@media (max-width: 768px) {
+@media (min-width: 650px) {
   .container {
       padding: 10px;
   }
@@ -212,7 +212,7 @@ footer {
 }
 
 /* Media query for medium devices*/
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 900px) {
   .container {
       max-width: 80%;
   }
@@ -223,7 +223,7 @@ footer {
 }
 
 /* Media query for large devices (laptops/desktops) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) {
   .container {
       max-width: 70%;
   }
@@ -234,7 +234,7 @@ footer {
 }
 
 /* Media query for extra-large devices (large desktops) */
-@media (min-width: 1025px) {
+@media (min-width: 1700px) {
   .container {
       max-width: 60%;
   }
