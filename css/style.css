@@ -72,12 +72,6 @@ section h2 {
   justify-content: space-between;
 }
 
-.right-align {
-  font-size: 1rem;
-  text-align: right;
-  line-height: 1.5rem;
-}
-
 .article-header {
   display: flex;
   justify-content: space-between;
@@ -99,11 +93,17 @@ section h2 {
   font-weight: bold;
 }
 
+.science-news {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
 article {
   border: 1px solid #ddd;
-  padding: 2rem;
-  box-sizing: border-box;
-  display: inline-block;
+  margin-inline: 4rem;
+  padding: 20px;
 }
 
 article h4 {
@@ -146,8 +146,100 @@ article p strong {
   font-size: 1.4rem;
 }
 
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="email"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #0080ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #005cb3;
+}
+
+img {
+  display: block; 
+  margin: 0 auto;
+}
+
 footer {
   background-color: #F0F0F0;
   text-align: center;
   padding: 10px;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+
+  input[type="email"],
+  input[type="submit"] {
+      width: 100%;
+  }
+}
+
+/* Media query for medium devices*/
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+      max-width: 80%;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+}
+
+/* Media query for large devices (laptops/desktops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+      max-width: 70%;
+  }
+
+  h1 {
+      font-size: 32px;
+  }
+}
+
+/* Media query for extra-large devices (large desktops) */
+@media (min-width: 1025px) {
+  .container {
+      max-width: 60%;
+  }
+
+  h1 {
+      font-size: 36px;
+  }
 }

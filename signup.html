@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Science Daily Newsletter Signup</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Science Daily Newsletter Signup</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>ScienceDaily Newsletter</h1>
-        <img src="media/science_daily_logo.webp" alt="Science Daily Logo"> 
-        <p>Subscribe to your source for the latest research related news.</p>
-        <form action="Signup_endpoint" method="post">
-            <input type="email" name="email" placeholder="Enter your email address" required>
-            <input type="submit" value="Subscribe">
-        </form>
-    </div>
+  <header>
+    <h1><a href="index.html">
+      <img src="media/images/sd-logo.png">
+    </a></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Breaking</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Tech</a></li>
+        <li><a href="#">Enviro</a></li>
+        <li><a href="#">Society</a></li>
+        <a href="signup.html">
+          <button>Sign up</button>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>ScienceDaily Newsletter</h1>
+    <img src="media/science_daily_logo.webp" alt="Science Daily Logo"> 
+    <p>Subscribe to your source for the latest research related news.</p>
+    <form action="#" method="post">
+      <input type="email" name="email" placeholder="Enter your email address" required>
+      <input type="submit" value="Subscribe">
+    </form>
+  </div>
 </body>
 </html>
