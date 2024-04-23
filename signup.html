@@ -7,6 +7,7 @@
   <title>Science Daily Newsletter Signup</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/form_validation.js"></script>
 </head>
 
 <body>
@@ -31,9 +32,9 @@
     <h2>ScienceDaily Newsletter</h2>
     <img src="media/science_daily_logo.webp" alt="Science Daily Logo"> 
     <p>Subscribe to your source for the latest research related news.</p>
-    <form action="#" method="post">
+    <form name="signupForm" action="#" method="post" autocomplete="on" onsubmit="return validateForm()">
       <input type="email" name="email" placeholder="Enter your email address" required>
-      <input type="submit" value="Subscribe">
+      <input type="submit" value="Stay Informed">
     </form>
   </div>
 </body>
