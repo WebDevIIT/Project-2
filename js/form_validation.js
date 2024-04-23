@@ -9,7 +9,7 @@ function validateForm() {
       alert("Please enter a valid email address");
       return false;
     } else {
-      alert("Your email, " + email + "has been accepted successfully!");
+      alert("Your email, " + email + " has been subscribed to our newsletter!");
       return true;
     }
   }
