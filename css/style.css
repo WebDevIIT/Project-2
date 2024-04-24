@@ -217,6 +217,11 @@ footer p {
   font-size: 12px;
 }
 
+footer nav {
+  text-align: center;
+  display: inline;
+}
+
 footer nav ul li {
   margin-block: 0.2rem;
 }
