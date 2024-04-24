@@ -203,7 +203,7 @@ footer {
   }
 
   h1 {
-      font-size: 24px;
+      font-size: 1rem;
   }
 
   input[type="email"],
@@ -219,7 +219,7 @@ footer {
   }
 
   h1 {
-      font-size: 28px;
+      font-size: 1.25rem;
   }
 }
 
@@ -230,7 +230,7 @@ footer {
   }
 
   h1 {
-      font-size: 32px;
+      font-size: 1.5rem;
   }
 }
 
@@ -238,10 +238,6 @@ footer {
 @media (min-width: 1700px) {
   .container {
       max-width: 60%;
-  }
-
-  h1 {
-      font-size: 36px;
   }
 }
 button {
