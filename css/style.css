@@ -16,15 +16,14 @@ header h1 img {
   margin-left: 0;
   max-width: 15rem;
   max-height: 10rem;
-  padding-block: 5px;
+  padding-right: 10px;
 }
 
 nav {
-  display: flex;
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
 nav li {
@@ -66,16 +65,14 @@ section {
 
 section h2 {
   font-size: 1.5em;
-  margin-inline: 5rem;
+  margin-inline: 2rem;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .article-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
+  text-align: center;
 }
 
 .article-header h3 {
@@ -88,9 +85,11 @@ section h2 {
 }
 
 .article-date {
-  margin-left: 1em;
+  display: block;
+  text-align: center;
   font-size: 1em;
   font-weight: bold;
+  margin-inline: 1rem;
 }
 
 .science-news {
@@ -102,8 +101,16 @@ section h2 {
 
 article {
   border: 1px solid #ddd;
-  margin-inline: 4rem;
-  padding: 20px;
+  margin-inline: 0;
+  padding: 10px;
+}
+
+article h1 {
+  font-style: italic;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.2rem;
 }
 
 article h4 {
@@ -157,14 +164,19 @@ article p strong {
   text-align: center;
 }
 
+.container h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 form {
   padding-top: 0.8rem;
   text-align: center;
 }
 
 input[type="email"] {
-  width: calc(100% - 22px);
-  padding: 10px;
+  width: 85%;
+  padding: 10px 20px;
   margin-bottom: 10px;
   border: 1px solid #cccccc;
   border-radius: 3px;
@@ -185,6 +197,10 @@ input[type="submit"]:hover {
   background-color: #005cb3;
 }
 
+.back-button {
+  padding-top: 0.3rem;
+}
+
 img {
   display: block; 
   margin: 0 auto;
@@ -196,19 +212,50 @@ footer {
   padding: 10px;
 }
 
+footer p {
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+footer nav ul li {
+  margin-block: 0.2rem;
+}
+
 /* Media query for smaller devices */
 @media (min-width: 650px) {
   .container {
       padding: 10px;
   }
 
+  nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   h1 {
       font-size: 1rem;
   }
 
-  input[type="email"],
-  input[type="submit"] {
-      width: 100%;
+  article {
+    border: 1px solid #ddd;
+    margin-inline: 4rem;
+    padding: 20px;
+  }
+
+  .article-date {
+    margin-right: 0;
+    margin-left: 1rem;
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+  }
+
+  .article-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
