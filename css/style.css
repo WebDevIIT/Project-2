@@ -36,7 +36,7 @@ nav a {
   color: black;
 }
 
-nav ul button {
+nav ul .btn {
   margin-inline: auto;
   margin-top: 0.3rem;
   background-color: #3c7194;
@@ -109,7 +109,7 @@ article {
 }
 
 article h2 {
-  font-style: italic;
+  font-style: bold;
   font-size: 1.5rem;
   display: block;
   text-align: center;
@@ -227,6 +227,21 @@ footer nav {
 
 footer nav ul li {
   margin-block: 0.2rem;
+}
+
+.btn {
+  background-color: #3c7194; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+  background-color: #005cb3; 
 }
 
 button {
