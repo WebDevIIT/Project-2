@@ -12,4 +12,4 @@ function validateForm() {
     alert("Your email, " + email + " has been subscribed to our newsletter!");
     return true;
   }
-  }
+}
